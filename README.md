@@ -1,8 +1,8 @@
 # cleanLoader.js
-Allows you to keep thrid party scripts/tags in a sepearte html file so that you can keep your business logic and app clean. You can add different scripts, iframes or html elements to top/bottom of head and body in html.
+Allows you to keep thrid party scripts/tags in a separate html file so that you can keep your business logic and app clean. You can add different scripts, iframes or html elements to top/bottom of head and body in html.
 
 ## Usage
-**The library depend on jQuery. Please include jQuery before adding this file.** 
+**The library depends on jQuery. Please include jQuery before adding this file.** 
 ```html
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script src="PATH_TO_CLEAN_LOADER_JS_FOLDER/cleanLoader.js"></script
