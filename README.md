@@ -8,7 +8,7 @@ Allows you to keep thrid party scripts/tags in a separate html file so that you 
 <script src="PATH_TO_CLEAN_LOADER_JS_FOLDER/cleanLoader.js"></script
 ```
 **Simply open the cleanLoader.html file and add your scripts based on the following pattern.**
-To add scripts at the start of head tag, just insert your code in the following block in cleanLoader.html. For e.g you can add optimizely snippet in the following way. Where xxxxxxxxx is your project code.
+To add scripts at the start of head tag, just insert your code in the following block in cleanLoader.html, e.g. you can add optimizely snippet in the following way. Where xxxxxxxxx is your project code.
 ```html
 <div id="prependHead">
     <!--Optimizely-->
@@ -17,7 +17,7 @@ To add scripts at the start of head tag, just insert your code in the following 
 </div>
 ```
 
-To add scripts at the end of head tag, just insert your code in the following block. For e.g you can add mixpanel snippet in the following way. Where your token is your mixpanel project key.
+To add scripts at the end of head tag, just insert your code in the following block, e.g. you can add mixpanel snippet in the following way. Where your token is your mixpanel project key.
 ```html
 <div id="appendHead">
     <!--Mixpanel-->
@@ -42,7 +42,7 @@ To add scripts at the end of head tag, just insert your code in the following bl
 </div>
 ```
 
-To add scripts at the start of head tag, just insert your code in the following block. For e.g you can add Google anaytics snippet in the following way. Where UA-XXXXX-Y is your Google Analytics tracker code.
+To add scripts at the start of head tag, just insert your code in the following block, e.g. you can add Google anaytics snippet in the following way. Where UA-XXXXX-Y is your Google Analytics tracker code.
 ```html
 <div id="prependBody">
     <!-- Google Analytics -->
